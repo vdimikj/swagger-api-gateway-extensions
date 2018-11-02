@@ -1,0 +1,4 @@
+
+Qsquid:MissingDeprecatedCheck¼"(Add the missing @deprecated Javadoc tag.(¿ÃÛø
+xsquid:S4144‘"YUpdate this method so that its implementation is not identical to "updatePet" on line 84.(ùÊ¿Ã8Ùê§¢í,
+Msquid:S1133¼"5Do not forget to remove this deprecated code someday.(¿ÃÛø
