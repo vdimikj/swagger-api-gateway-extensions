@@ -1,13 +1,13 @@
 # Swagger Sample App
 
 ## Overview
-This is a java project to build a stand-alone server which implements the OpenAPI Spec.  You can find out 
+Java project to build a stand-alone server which implements the OpenAPI Spec. You can find out 
 more about both the spec and the framework at http://swagger.io.
 
-This sample is based on jersey2, and provides an example of integration of swagger into a jersey2 based app, with code based configuration/initialization
+This sample is based on Jersey2 and provides an example of integration of Swagger into a Jersey2 based app, with code based configuration/initialization
 
-### To run (with Maven)
-To run the server, run this task:
+### How to start (with Maven)
+To start the server, run this task:
 
 ```
 mvn package -Dlog4j.configuration=file:./conf/log4j.properties jetty:run
@@ -34,7 +34,7 @@ When no key is applied, the "default-key" is applied to all operations.  If the 
 number of other resources are shown in the UI, including sample CRUD operations.
 
 #Example for Api integration object 
-in order to achieve this kind of yaml file :
+In order to achieve this format of yaml file...
 ```
     x-amazon-apigateway-integration:
         responses:
@@ -50,7 +50,7 @@ in order to achieve this kind of yaml file :
         type: "mock" 
 ```
      
-Use this swagger extension
+...Use this swagger extension
 
  ```
  extensions = {
