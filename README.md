@@ -33,7 +33,7 @@ based on api-key.  There are two keys defined in the sample app:
 When no key is applied, the "default-key" is applied to all operations.  If the "special-key" is entered, a
 number of other resources are shown in the UI, including sample CRUD operations.
 
-#Example for Api integration object 
+# Example for Api integration object 
 In order to achieve this format of yaml file...
 ```
     x-amazon-apigateway-integration:
